@@ -1,0 +1,10 @@
+    val inputFile = "/yelpdatafall/review/review.csv"
+    val fileData = sc.textFile(inputFile)
+    val res = fileData.map(line => line.split("\\^"))
+    val data = res.map(line => (line(2),(line(3).toDouble,1.0)))
+    val tempData = data.reduceByKey((x,y) => ((x._1+y._1)/(x._2+y._2),1.0))
+    val avgData = tempData.map{case (key,value)=>(key,value._1.toInt)}
+    val resultData= avgData.map(keyvalue=>keyvalue.swap).
+                            sortByKey(false,1).
+                            map(keyvalue=>keyvalue.swap).
+                            take(10).foreach(println)

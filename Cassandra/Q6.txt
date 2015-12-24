@@ -1,0 +1,6 @@
+create table review(review_id text,user_id text,business_id text,stars float,PRIMARY KEY(user_id,business_id,stars)) WITH CLUSTERING ORDER BY (business_id asc,stars DESC);
+COPY review(review_id,user_id,business_id,stars) FROM 'review.csv' WITH DELIMITER = '^' AND HEADER = FALSE;
+create index on review(stars);
+select * from review where stars=4.0 LIMIT 10;
+truncate review;
+drop table review;

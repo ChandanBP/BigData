@@ -1,0 +1,33 @@
+    val reviewFile = "/yelpdatafall/review/review.csv"
+    val businessFile = "/yelpdatafall/business/business.csv"
+
+    val reviewData = sc.textFile(reviewFile)
+
+    val reviewMap = reviewData.map(line => line.split("\\^")).map(line => (line(2),(line(3).toDouble,1.0)))
+    val reviewAvgData = reviewMap.reduceByKey((x,y) => ((x._1+y._1)/(x._2+y._2),1.0))
+    val tempData = reviewAvgData.map{case (key,value) => (key,value._1.toInt)}
+    val res = tempData.map(keyValue => keyValue.swap).
+                       sortByKey(false,1).
+                       map(keyValue => keyValue.swap).
+                       take(10)
+
+    val unSortedMap = scala.collection.mutable.Map[String,Int]()
+    for(i<-0 to res.length-1){
+      unSortedMap.put(res(i)._1,res(i)._2)
+    }
+
+    val sortedMap = unSortedMap.toSeq.sortBy(_._1)
+    for(i<-0 to sortedMap.length-1){
+      println(sortedMap(i)._1+" "+sortedMap(i)._2)
+    }
+
+    val businessData = sc.textFile(businessFile)
+    val businessMap = businessData.map(line => line.split("\\^")).map(line => (line(0),(line(1),line(2))))
+
+    businessMap.foreach(keyVal => for(i<-0 to sortedMap.length-1)
+                                  {
+                                    if((sortedMap(i)._1.equals(keyVal._1)))
+                                    {
+                                       println(keyVal._1+" "+keyVal._2)
+                                    }
+                                  })

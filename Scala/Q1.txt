@@ -1,0 +1,6 @@
+    val address = readLine();
+    val inputFile = "/yelpdatafall/business/business.csv"
+    val fileData = sc.textFile(inputFile)
+    val res = fileData.map(line => line.split("\\^"))
+    val data = res.filter(line => line(1).contains(address)).map(line => (line(0),1)).reduceByKey(_+_).keys.collect()
+    data.foreach(println)

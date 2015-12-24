@@ -1,0 +1,13 @@
+CREATE KEYSPACE cbp140230 WITH replication = {'class': 'SimpleStrategy','replication_factor': 1};
+
+CREATE TABLE business(business_id text PRIMARY KEY,full_address text,categories text);
+COPY business(business_id,full_address,categories) FROM 'business.csv' WITH DELIMITER = '^' AND HEADER = FALSE;
+select * from business where business_id = 'HPWmjuivv3xJ279qSVfNaQ';
+truncate business;
+drop table business;
+
+
+
+
+CREATE TABLE frienfollower(user VARCHAR PRIMARY KEY,friends VARCHAR);
+Copy frienfollower (user, friends) from '/Users/chandan/Downloads/FriendFollowerList.txt' with delimiter = ',';
