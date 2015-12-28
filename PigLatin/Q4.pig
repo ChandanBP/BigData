@@ -9,4 +9,4 @@ countReviews = foreach busiReviewGroup generate group as business_id,flatten(rem
 sortedData = order countReviews by numReviews DESC;
 limitData = limit sortedData 5;
 displayData = foreach limitData generate business_id,removeDuplicate::full_address,removeDuplicate::categories,numReviews;
-dump displayData;
+dump displayData; 
