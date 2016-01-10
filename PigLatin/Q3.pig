@@ -3,6 +3,6 @@ businessData = load '/yelpdatafall/business/business.csv' using PigStorage('^') 
 
 filterData = DISTINCT businessData;
 
-busiReviewGroup = cogroup reviewData by business_id,filterData by business_id;
+busiReviewGroup = cogroup reviewData by business_id,filterData by business_id; 
 limitData = limit busiReviewGroup 5;
 dump limitData;
