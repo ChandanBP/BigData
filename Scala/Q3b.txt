@@ -5,7 +5,7 @@
     val reviewData = sc.textFile(reviewFile)
     val res = reviewData.map(line => line.split("\\^"))
     val reviewMap = res.map(line => (line(2),(line(3).toDouble,1.0)))
-    val tempData = reviewMap.reduceByKey((x,y) => ((x._1+y._1)/(x._2+y._2),1.0))
+    val tempData = reviewMap.reduceByKey((x,y) => ((x._1+y._1)/(x._2+y._2),1.0)) 
     val avgData = tempData.map{case (key,value)=>(key,value._1.toInt)}
     val resultData= avgData.map(keyvalue=>keyvalue.swap).
       sortByKey(false,1).
