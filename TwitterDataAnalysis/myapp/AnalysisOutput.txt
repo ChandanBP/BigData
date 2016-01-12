@@ -1,0 +1,207 @@
+Printing details of Tweet with Highest Retweets:
+User latime has highest retweet count=53 whose text is RT @latimes: Name by name, France commemorates victims of terrorist attack on Paris https://t.co/Fs9ehbHC3e https://t.co/jqkL9bXe7d
+
+
+Printed the order in which retweets occured based on tweet timestamp:
+Fri Nov 27 20:35:39 GMT-06:00 2015|adr4517
+Fri Nov 27 20:35:52 GMT-06:00 2015|cheyennebeaches
+Fri Nov 27 20:36:01 GMT-06:00 2015|SherryFLRealtor
+Fri Nov 27 20:36:25 GMT-06:00 2015|HeraldExaminer
+Fri Nov 27 20:36:49 GMT-06:00 2015|ArabNewsRt4
+Fri Nov 27 20:37:14 GMT-06:00 2015|ChefRinnie
+Fri Nov 27 20:37:16 GMT-06:00 2015|raygibbs1
+Fri Nov 27 20:38:03 GMT-06:00 2015|koudaiin
+Fri Nov 27 20:38:55 GMT-06:00 2015|St_Louis_Ray
+Fri Nov 27 20:39:00 GMT-06:00 2015|AbsoluteRNews
+Fri Nov 27 20:39:14 GMT-06:00 2015|aparnamuk
+Fri Nov 27 20:39:47 GMT-06:00 2015|StolenSweeties
+Fri Nov 27 20:39:56 GMT-06:00 2015|cuevasbrenda123
+Fri Nov 27 20:40:04 GMT-06:00 2015|SidneyJoles
+Fri Nov 27 20:40:35 GMT-06:00 2015|Semperfelix
+Fri Nov 27 20:40:48 GMT-06:00 2015|wQQn
+Fri Nov 27 20:40:50 GMT-06:00 2015|roaguirregil
+Fri Nov 27 20:41:11 GMT-06:00 2015|ZAKOOLISA
+Fri Nov 27 20:41:49 GMT-06:00 2015|LiveNewsyTweets
+Fri Nov 27 20:42:10 GMT-06:00 2015|erineddy
+Fri Nov 27 20:42:18 GMT-06:00 2015|benavu54
+Fri Nov 27 20:43:04 GMT-06:00 2015|debrajojo
+Fri Nov 27 20:45:06 GMT-06:00 2015|sterlingvoth
+Fri Nov 27 20:45:27 GMT-06:00 2015|LanoraMueller
+Fri Nov 27 20:46:43 GMT-06:00 2015|News__Masr
+Fri Nov 27 20:46:47 GMT-06:00 2015|JujyCakes
+Fri Nov 27 20:47:23 GMT-06:00 2015|manujacob09
+Fri Nov 27 20:48:16 GMT-06:00 2015|richardcostigan
+Fri Nov 27 20:48:28 GMT-06:00 2015|smairata
+Fri Nov 27 20:53:02 GMT-06:00 2015|castlekitten47
+Fri Nov 27 20:53:35 GMT-06:00 2015|mday735
+Fri Nov 27 20:55:07 GMT-06:00 2015|PooranArbabi
+Fri Nov 27 20:56:50 GMT-06:00 2015|SophiaW_
+Fri Nov 27 21:03:23 GMT-06:00 2015|risapulver
+Fri Nov 27 21:05:29 GMT-06:00 2015|WOAPRadio
+Fri Nov 27 21:08:38 GMT-06:00 2015|Sumol67
+Fri Nov 27 21:13:34 GMT-06:00 2015|AngelaPickel
+Fri Nov 27 21:14:45 GMT-06:00 2015|chanasar4gd
+Fri Nov 27 21:15:48 GMT-06:00 2015|rockbridge2008
+Fri Nov 27 21:32:07 GMT-06:00 2015|live_news_feed_
+Fri Nov 27 21:43:58 GMT-06:00 2015|SLaurelWeldon
+Fri Nov 27 22:09:39 GMT-06:00 2015|MKCBA
+Sat Nov 28 00:18:20 GMT-06:00 2015|theReal_Rebel
+Sat Nov 28 01:56:55 GMT-06:00 2015|homenor56
+Sat Nov 28 02:46:32 GMT-06:00 2015|omgsteph
+Sat Nov 28 04:12:58 GMT-06:00 2015|OemorOniluap
+Sat Nov 28 11:33:57 GMT-06:00 2015|larkarles
+Sat Nov 28 11:48:09 GMT-06:00 2015|SpecialRider
+
+
+'User' --> 'Parent User' List:
+live_news_feed_ --> latime
+chanasar4gd --> adr4517
+koudaiin --> ArabNewsRt4
+WOAPRadio --> latime
+AbsoluteRNews --> ChefRinnie
+raygibbs1 --> ChefRinnie
+LiveNewsyTweets --> ChefRinnie
+PooranArbabi --> adr4517
+adr4517 --> latime
+mday735 --> latime
+News__Masr --> wQQn
+roaguirregil --> koudaiin
+Semperfelix --> ChefRinnie
+cheyennebeaches --> latime
+SherryFLRealtor --> cheyennebeaches
+debrajojo --> ChefRinnie
+SophiaW_ --> adr4517
+benavu54 --> StolenSweeties
+rockbridge2008 --> ChefRinnie
+OemorOniluap --> ChefRinnie
+smairata --> ChefRinnie
+StolenSweeties --> HeraldExaminer
+erineddy --> ChefRinnie
+MKCBA --> manujacob09
+AngelaPickel --> adr4517
+castlekitten47 --> ChefRinnie
+theReal_Rebel --> ChefRinnie
+aparnamuk --> latime
+SidneyJoles --> cheyennebeaches
+SLaurelWeldon --> latime
+homenor56 --> latime
+ZAKOOLISA --> latime
+sterlingvoth --> St_Louis_Ray
+manujacob09 --> Semperfelix
+SpecialRider --> latime
+richardcostigan --> ChefRinnie
+Sumol67 --> adr4517
+HeraldExaminer --> cheyennebeaches
+St_Louis_Ray --> ChefRinnie
+wQQn --> ChefRinnie
+larkarles --> ChefRinnie
+risapulver --> adr4517
+JujyCakes --> wQQn
+ArabNewsRt4 --> adr4517
+ChefRinnie --> SherryFLRealtor
+LanoraMueller --> ChefRinnie
+omgsteph --> latime
+cuevasbrenda123 --> latime
+
+The User from whom  maximum RE-Tweets occurred is: [ChefRinnie] with re-tweet user count: 16
+
+User controlling the flow of information is: [SherryFLRealtor] who is the parent of [ChefRinnie] , the user with maximum RE-Tweet users
+
+Printing the path in which maximum information flow occurred:
+ChefRinnie <- SherryFLRealtor
+SherryFLRealtor <- cheyennebeaches
+cheyennebeaches <- latime
+
+
+Printing the Time Line for Tweets:
+@Interval: 00:34:09
+    (Name by name, France commemorates victims of terrorist attack on Paris https://t.co/27Hl716zJv,1)
+@Interval: 02:04:09
+    (RT @Royal_talk: Mary also left flowers for the victims of the Paris terrorist attack outside of the French embassy https://t.co/uvLpf53Gu3,1)
+@Interval: 08:24:09
+    (Paris terror attack victims honoured: France has paid tribute to the 130 people killed in the terrorist... https://t.co/VU04bUj3ZV #Paris,1)
+    (Name by name, France commemorates victims of terrorist attack on Paris https://t.co/Fs9ehbHC3e https://t.co/jqkL9bXe7d,1)
+    (Name by name, France commemorates victims of terrorist attack on Paris https://t.co/WwrHfdKNS5,1)
+    (Name by name, France commemorates victims of terrorist attack on Paris - Los Angeles Times https://t.co/nOmdiSKMRT #economy,1)
+    (From NPR: 2 Weeks On, Paris Pays Homage To Victims Of Terrorist Attack https://t.co/zS5tACA15b,1)
+    (Name by name, France commemorates victims of terrorist attack on Paris https://t.co/UXj8a2HFnw,1)
+    (Name by name, France commemorates victims of terrorist attack on Paris: Nick Alexander, 36 ... C... https://t.co/0Lz5wE1Jpq #ParisAttacks,1)
+    (Two weeks after the terrorist attack, #Paris mourns the 130 victims of attacks https://t.co/wiUGKClMbD,1)
+    (Name by name, France commemorates victims of terrorist attack on Paris https://t.co/gvhkgSk8mA,1)
+    (Paris attacks: Gatwick Airport evacuated amid fears of more terror strikes ... - https://t.co/djT4MhVjc3 https://t.co/UsvK2Xmk0z,1)
+    (RT @PaulWilko657: Posters of Islamic terrorist attack victims appear around Paris which go against the #NothingToDoWithIslam narrative http…,1)
+    (RT @parisattacks: Name by name, France commemorates victims of terrorist attack on Paris: Nick Alexander, 36 ... C... https://t.co/9Q9byt8Q…,1)
+    (Name by name, France commemorates victims of terrorist attack on Paris https://t.co/CbmMcpTXCu,1)
+    (RT @latimes: Name by name, France commemorates victims of terrorist attack on Paris https://t.co/Fs9ehbHC3e https://t.co/jqkL9bXe7d,24)
+    (https://t.co/OvnT4MPbz7 Name by name, France commemorates victims of terrorist attack on Paris… https://t.co/Gw3CJa7l6s,1)
+    (Retweeted Los Angeles Times (@latimes):Name by name, France commemorates victims of terrorist attack on Paris... https://t.co/wfiBYH24V3,1)
+    (latimes: Name by name, France commemorates victims of terrorist attack on Paris https://t.co/tmwdon7u5W https://t.co/2Tt8Sl3wJw,1)
+    (Name by name, France commemorates victims of terrorist attack on Paris https://t.co/BKeH193eJz,1)
+    (Name by name, France commemorates victims of terrorist attack on Paris,1)
+    (Name by name, France commemorates victims of terrorist attack on Paris: Nick Alexander, 36 ... C... https://t.co/9Q9byt8Qw6 #ParisAttacks,1)
+    (Name by name, France commemorates victims of terrorist attack on Paris https://t.co/QR4REx7kZV https://t.co/5UgYVf4r85 VIA @latimes,1)
+@Interval: 08:34:09
+    (RT @latimes: Name by name, France commemorates victims of terrorist attack on Paris https://t.co/Fs9ehbHC3e https://t.co/jqkL9bXe7d,7)
+    (#LATimes https://t.co/hQYeUPTj8E Name by name, France commemorates victims of terrorist attack on Paris … https://t.co/4Px4PVNXMy,1)
+@Interval: 08:39:09
+    (RT @latimes: Name by name, France commemorates victims of terrorist attack on Paris https://t.co/Fs9ehbHC3e https://t.co/jqkL9bXe7d,4)
+    (Name by name, France commemorates victims of terrorist attack on Paris https://t.co/4nYPFo9GVa https://t.co/w4OWT5BaFe,1)
+    (RT @parisattacks: Name by name, France commemorates victims of terrorist attack on Paris: Nick Alexander, 36 ... C... https://t.co/0Lz5wE1J…,1)
+@Interval: 08:44:09
+    (RT @latimes: Name by name, France commemorates victims of terrorist attack on Paris https://t.co/Fs9ehbHC3e https://t.co/jqkL9bXe7d,4)
+@Interval: 08:54:09
+    (RT @latimes: Name by name, France commemorates victims of terrorist attack on Paris https://t.co/Fs9ehbHC3e https://t.co/jqkL9bXe7d,1)
+@Interval: 08:59:09
+    (RT @latimes: Name by name, France commemorates victims of terrorist attack on Paris https://t.co/Fs9ehbHC3e https://t.co/jqkL9bXe7d,1)
+@Interval: 09:04:09
+    (RT @latimes: Name by name, France commemorates victims of terrorist attack on Paris https://t.co/Fs9ehbHC3e https://t.co/jqkL9bXe7d,2)
+    (Name by name, France commemorates victims of terrorist attack on Paris https://t.co/U23Vo7wjKQ  https://t.co/PbZt0vfLSL,1)
+    (RT @RedBreakingNews: Name by name, France commemorates victims of terrorist attack on Paris https://t.co/U23Vo7wjKQ  https://t.co/PbZt0vfLSL,1)
+@Interval: 09:09:09
+    (RT @latimes: Name by name, France commemorates victims of terrorist attack on Paris https://t.co/Fs9ehbHC3e https://t.co/jqkL9bXe7d,1)
+@Interval: 09:19:09
+    (Name by name, #France commemorates victims of terrorist attack on #Paris https://t.co/J4GPBrGUmN,1)
+    (Name by name, France commemorates victims of terrorist attack on Paris (Los Angeles Times) https://t.co/5LYGcPKfJo (1921 GMT),1)
+@Interval: 09:29:09
+    (RT @LosAngelesCP: Name by name, France commemorates victims of terrorist attack on Paris https://t.co/WwrHfdKNS5,1)
+    (RT @latimes: Name by name, France commemorates victims of terrorist attack on Paris https://t.co/Fs9ehbHC3e https://t.co/jqkL9bXe7d,1)
+    (RT @nprworld: 2 Weeks On, Paris Pays Homage To Victims Of Terrorist Attack https://t.co/AK22od75PP France held a somber memorial ceremony F…,1)
+@Interval: 09:39:09
+    (RT @latimes: Name by name, France commemorates victims of terrorist attack on Paris https://t.co/Fs9ehbHC3e https://t.co/jqkL9bXe7d,1)
+@Interval: 10:09:09
+    (2 Weeks On, Paris Pays Homage To Victims Of Terrorist Attack: France held a somber memorial ceremony Friday to remember the victims o...,1)
+@Interval: 10:29:09
+    (2 Weeks On, Paris Pays Homage To Victims Of Terrorist Attack https://t.co/BZon3lMge3,1)
+@Interval: 10:34:09
+    (Name by name, France commemorates victims of terrorist attack on Paris https://t.co/MvS5B1r9r6,1)
+@Interval: 10:49:09
+    (2 Weeks On, Paris Pays Homage To Victims Of Terrorist Attack: Copyright 2015 NPR. To see more, visit… https://t.co/hW97e1rXUJ,1)
+    (RT @metanoik: Name by name, France commemorates victims of terrorist attack on Paris - Los Angeles Times https://t.co/nOmdiSKMRT #economy,1)
+@Interval: 10:59:09
+    (Name by name, France commemorates victims of terrorist attack on Paris  https://t.co/gkPvBNPsDv,1)
+@Interval: 11:44:09
+    (RT @latimes: Name by name, France commemorates victims of terrorist attack on Paris https://t.co/Fs9ehbHC3e https://t.co/jqkL9bXe7d,1)
+@Interval: 12:34:09
+    (Name by name, France commemorates victims of terrorist attack on Paris https://t.co/W8jPxuDs6e,1)
+@Interval: 12:54:09
+    (Name by name, France commemorates victims of terrorist attack on Paris,1)
+@Interval: 12:59:09
+    (Name by name, France commemorates victims of terrorist attack on Paris https://t.co/TLcve7atI3,1)
+@Interval: 13:39:09
+    (#Paris mourns, honors victims of #terrorist #attack https://t.co/yaa1MPdjz3,1)
+@Interval: 15:14:09
+    (RT @AdvisorAbbate: Two weeks after the terrorist attack, #Paris mourns the 130 victims of attacks https://t.co/wiUGKClMbD,1)
+    (Josh Homme Raising Money For Victims Of Paris Terrorist Attack Recap https://t.co/6VxrEe2498 https://t.co/zioizEMnP7,1)
+@Interval: 16:59:09
+    (2 Weeks On, Paris Pays Homage To Victims Of Terrorist Attack: France held a somber memorial ceremony Friday to remember the victims o...,1)
+@Interval: 19:09:09
+    (#3Novices : Paris terror attack victims honoured https://t.co/mwoUsDgsLM France has paid tribute to the 130 people killed in the terrorist…,1)
+@Interval: 19:19:09
+    (Paris terror attack victims honoured: France has paid tribute to the 130 people killed in the terrorist... https://t.co/nvMifG2kkm #Video,1)
+@Interval: 23:14:09
+    (Name by name, France commemorates victims of terrorist attack on Paris - https://t.co/MJiCagsJC4,1)
+    (Name by name, France commemorates victims of terrorist attack on Paris - https://t.co/hthp0cnxAG,1)
+@Interval: 23:29:09
+    (RT @latimes: Name by name, France commemorates victims of terrorist attack on Paris https://t.co/Fs9ehbHC3e https://t.co/jqkL9bXe7d,1)
+@Interval: 23:34:09
+    (My heart breaks for the victims of the Paris attack but there should be #One symbol of support for all terrorist atrocities #Unity !!!,1)

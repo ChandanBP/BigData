@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: com.sparkjava:spark-core:2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.7" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-simple:1.7.7" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-server:9.0.2.v20130417" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty.orbit:javax.servlet:3.0.0.v201112011016" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-http:9.0.2.v20130417" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-util:9.0.2.v20130417" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-io:9.0.2.v20130417" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-webapp:9.0.2.v20130417" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-xml:9.0.2.v20130417" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-servlet:9.0.2.v20130417" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-security:9.0.2.v20130417" level="project" />
+    <orderEntry type="library" name="Maven: com.datastax.spark:spark-cassandra-connector-java_2.10:1.5.0-M2" level="project" />
+    <orderEntry type="library" name="Maven: org.scala-lang:scala-library:2.10.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.cassandra:cassandra-clientutil:2.1.5" level="project" />
+    <orderEntry type="library" name="Maven: com.datastax.cassandra:cassandra-driver-core:2.2.0-rc3" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-handler:4.0.27.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-buffer:4.0.27.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-common:4.0.27.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-transport:4.0.27.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec:4.0.27.Final" level="project" />
+    <orderEntry type="library" name="Maven: com.codahale.metrics:metrics-core:3.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.3.2" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:16.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.joda:joda-convert:1.2" level="project" />
+    <orderEntry type="library" name="Maven: joda-time:joda-time:2.3" level="project" />
+    <orderEntry type="library" name="Maven: com.twitter:jsr166e:1.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.scala-lang:scala-reflect:2.10.5" level="project" />
+    <orderEntry type="library" name="Maven: com.datastax.spark:spark-cassandra-connector_2.10:1.5.0-M2" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Softwares/spark-1.5.1-bin-hadoop2.6/lib/datanucleus-api-jdo-3.2.6.jar!/" />
+          <root url="jar://C:/Softwares/spark-1.5.1-bin-hadoop2.6/lib/datanucleus-core-3.2.10.jar!/" />
+          <root url="jar://C:/Softwares/spark-1.5.1-bin-hadoop2.6/lib/datanucleus-rdbms-3.2.9.jar!/" />
+          <root url="jar://C:/Softwares/spark-1.5.1-bin-hadoop2.6/lib/spark-1.5.1-yarn-shuffle.jar!/" />
+          <root url="jar://C:/Softwares/spark-1.5.1-bin-hadoop2.6/lib/spark-assembly-1.5.1-hadoop2.6.0.jar!/" />
+          <root url="jar://C:/Softwares/spark-1.5.1-bin-hadoop2.6/lib/spark-examples-1.5.1-hadoop2.6.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://C:/Softwares/spark-1.5.1-bin-hadoop2.6/lib/spark-assembly-1.5.1-hadoop2.6.0.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/spark-cassandra-connector-java_2.10-1.5.0-M2-tests.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/spark-cassandra-connector-java_2.10-1.5.0-M2.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/spark-cassandra-connector_2.10-1.5.0-M2-tests.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/spark-cassandra-connector_2.10-1.5.0-M2.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/spark-core_2.10-1.5.2-tests.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/spark-core_2.10-1.5.2.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/spark-streaming_2.10-1.5.2-tests.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/spark-streaming_2.10-1.5.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Downloads/spark-cassandra-connector-java_2.10-1.5.0-M2-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/spark-cassandra-connector_2.10-1.5.0-M2-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/spark-core_2.10-1.5.2-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/spark-core_2.10-1.5.2-test-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/spark-streaming_2.10-1.5.2-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/spark-streaming_2.10-1.5.2-test-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
