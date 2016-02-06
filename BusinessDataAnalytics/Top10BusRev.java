@@ -39,7 +39,7 @@ public class Top10BusRev{
 					businessid.set(mydata[2]);
 					rating= new FloatWritable(Float.parseFloat(mydata[3]));
 					context.write(businessid,rating);
-				
+				 
 			}	
 			
 			
