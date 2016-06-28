@@ -89,7 +89,7 @@ public class TweetsAnalysis{
             }
         });
 
-        JavaPairRDD<String,Long>distinctUser = userTweetCount.distinct();
+        JavaPairRDD<String,Long>distinctUser = userTweetCount.distinct(); 
         JavaPairRDD<Long,String>swap = distinctUser.mapToPair(new PairFunction<Tuple2<String, Long>, Long, String>() {
 
             public Tuple2<Long, String> call(Tuple2<String, Long> stringLongTuple2) throws Exception {
